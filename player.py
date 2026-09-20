@@ -52,10 +52,10 @@ class Player(pygame.sprite.Sprite):#creation de la class player
             self.image11 = pygame.image.load("assets/player_pink/gauche/Pink5.png")#import des image du player
             self.image12 = pygame.image.load("assets/player_pink/gauche/Pink6.png")#import des image du player
 
-            self.climb1 = pygame.image.load("assets/player_pink/climb/Climb1.png")#import des image du player
-            self.climb2 = pygame.image.load("assets/player_pink/climb/Climb2.png")#import des image du player
-            self.climb3 = pygame.image.load("assets/player_pink/climb/Climb3.png")#import des image du player
-            self.climb4 = pygame.image.load("assets/player_pink/climb/Climb4.png")#import des image du player
+            self.climb1 = pygame.image.load("assets/player_pink/climb/climb1.png")#import des image du player
+            self.climb2 = pygame.image.load("assets/player_pink/climb/climb2.png")#import des image du player
+            self.climb3 = pygame.image.load("assets/player_pink/climb/climb3.png")#import des image du player
+            self.climb4 = pygame.image.load("assets/player_pink/climb/climb4.png")#import des image du player
 
 
 
@@ -98,10 +98,10 @@ class Player(pygame.sprite.Sprite):#creation de la class player
             self.image11 = pygame.image.load("assets/blue_player/gauche/blue5.png")#import des image du player
             self.image12 = pygame.image.load("assets/blue_player/gauche/blue6.png")#import des image du player
 
-            self.climb1 = pygame.image.load("assets/blue_player/climb/Climb1.png")#import des image du player
-            self.climb2 = pygame.image.load("assets/blue_player/climb/Climb2.png")#import des image du player
-            self.climb3 = pygame.image.load("assets/blue_player/climb/Climb3.png")#import des image du player
-            self.climb4 = pygame.image.load("assets/blue_player/climb/Climb4.png")#import des image du player
+            self.climb1 = pygame.image.load("assets/blue_player/climb/climb1.png")#import des image du player
+            self.climb2 = pygame.image.load("assets/blue_player/climb/climb2.png")#import des image du player
+            self.climb3 = pygame.image.load("assets/blue_player/climb/climb3.png")#import des image du player
+            self.climb4 = pygame.image.load("assets/blue_player/climb/climb4.png")#import des image du player
 
         self.climb_index = 0 #variable
         self.climbframe = [self.climb1, self.climb1, self.climb1, self.climb1, self.climb2, self.climb2, self.climb2,#tableau
