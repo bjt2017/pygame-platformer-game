@@ -6,6 +6,12 @@
 - librairies utilisées : pygame, time 
 
 
+1. `python3 -m venv venv`, créer un environnement virtuel
+2. activer l'environnement virtuel
+3. `pip3 install -r requirements.txt`, installer les dépendances
+4. `python3 main.py` lancer le jeu
+
+
 ## Visuel
 - Au démarrage du jeu, on trouve le menu  
 
